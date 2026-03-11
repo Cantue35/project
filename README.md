@@ -1,6 +1,7 @@
 # Virtual Try-On App
 
 ## Project Summary
+
 This virtual try-on app helps users preview outfits digitally before purchase.
 
 ## Main Features
@@ -11,3 +12,4 @@ This virtual try-on app helps users preview outfits digitally before purchase.
 - Improve confidence in online shopping decisions
 
 This repository is used to demonstrate collaborative GitHub workflow.
+
