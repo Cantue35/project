@@ -4,7 +4,7 @@
 This virtual try-on app helps users preview outfits digitally before purchase.
 
 ## Main Features
-- Upload or select a user image
+- Add or select a photo
 - Choose clothing items from a product catalog
 - Overlay selected clothes onto the user image
 - Provide a simple and user-friendly interface
