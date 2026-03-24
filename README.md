@@ -1,15 +1,38 @@
 # Virtual Try-On App
 
-## Project Summary
+## Project Overview
+**See how clothes look on you before you buy them.**  
+This app uses AI to simulate a virtual try-on experience, helping users make better online shopping decisions.
 
-This virtual try-on app helps users preview outfits digitally before purchase.
+---
 
-## Main Features
-- Add or select a photo
-- Choose clothing items from a product catalog
-- Overlay selected clothes onto the user image
-- Provide a simple and user-friendly interface
-- Improve confidence in online shopping decisions
+## Features
+- Upload or select a user photo  
+- Browse a catalog of clothing items  
+- Overlay clothes onto the user’s image  
+- Simple and user-friendly interface  
+- Helps reduce uncertainty in online purchases  
 
-This repository is used to demonstrate collaborative GitHub workflow.
+---
 
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| **Mobile App** | React Native / Expo (TypeScript) |
+| **Backend API** | Supabase Edge Functions / Node.js |
+| **Database** | Supabase Postgres |
+| **Object Storage** | Supabase Storage (temporary bucket, 1h TTL) |
+| **AI Engine** | Google Vertex AI |
+| **Queue** | Supabase-based job queue (Postgres + Worker) |
+| **On-device Storage** | Expo FileSystem / AsyncStorage |
+
+---
+
+## Purpose
+This project was developed as part of the **Fundamentals of Software Engineering** course.
+
+---
+
+## License
+This project is for academic purposes. All rights reserved.
